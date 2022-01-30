@@ -23,15 +23,9 @@ def generate_pass():
 
 
 	random.shuffle(character)
-
-	print(character)
-
 	temp = random.sample(character,length)
 
 	password = "".join(temp)
-
-	
-
 	print("Your "+str(length)+" digit password is: " + password)
 	
 generate_pass()
